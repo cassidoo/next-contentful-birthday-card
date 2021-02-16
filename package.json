@@ -9,6 +9,7 @@
     "export": "next export"
   },
   "dependencies": {
+    "@reach/listbox": "^0.13.0",
     "contentful": "^7.14.6",
     "next": "10.0.6",
     "react": "17.0.1",

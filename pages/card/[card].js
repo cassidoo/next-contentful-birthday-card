@@ -42,7 +42,6 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  console.log(params)
   const res = await fetchEntries()
   const content = await res
     .map((p) => {

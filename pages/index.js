@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { fetchEntries } from '@utils/contentfulPosts'
 
 import Header from '@components/Header'
+import Form from '@components/Form'
 import Footer from '@components/Footer'
 
 export default function Home({ messages }) {
@@ -17,7 +18,8 @@ export default function Home({ messages }) {
       <main>
         <Header text="It's birthday time!" />
         <div className="posts">
-          Go to one of these slugs:
+          <Form cards={messages} />
+          {/* Go to one of these slugs:
           <ul>
             {messages.map((m) => {
               return (
@@ -28,7 +30,7 @@ export default function Home({ messages }) {
                 </li>
               )
             })}
-          </ul>
+          </ul> */}
         </div>
       </main>
 
