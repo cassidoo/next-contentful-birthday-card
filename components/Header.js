@@ -1,3 +1,3 @@
-export default function Header() {
-  return <h1 className="title">Next + Contentful Starter</h1>
+export default function Header({ text }) {
+  return <h1 className="title">{text}</h1>
 }

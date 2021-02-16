@@ -1,0 +1,14 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background: #eceff4;
+  border-radius: 15px;
+}
+
+.tofrom {
+  padding: 20px;
+  font-size: 2em;
+  color: #5e81ac;
+}
